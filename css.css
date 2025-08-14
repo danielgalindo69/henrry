@@ -90,7 +90,7 @@ h2{
 
 
 .fondo-diagonal {
-      height: 250px; /* Ajusta la altura según lo que necesites */
+      height: 250px; 
      background-image: linear-gradient( 350deg, rgb(0, 255, 173) 70%, white 30%);
       
       color: black;
@@ -245,7 +245,6 @@ align-items: center;
             transition: transform 0.3s ease;
         }
 
-        /* Tarjeta Premium (del medio) destacada */
         .tarjetas > div:nth-child(2) {
             background: #1a2332;
             color: white;
@@ -442,9 +441,7 @@ align-items: center;
 
 
 
-        /* Tu CSS original se mantiene igual, solo se agregan estas media queries al final */
 
-/* Responsive para 352px - 480px */
 @media (min-width: 352px) and (max-width: 480px) {
     .fondo {
         height: 220px;
@@ -528,7 +525,6 @@ align-items: center;
     }
 }
 
-/* Responsive para 481px - 768px */
 @media (min-width: 481px) and (max-width: 768px) {
     .fondo {
         height: 280px;
